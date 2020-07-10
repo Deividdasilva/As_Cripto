@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CriptoMoedas</string>
+    <string name="Ativos">ATIVOS/></string>
+    <string name="confirmar">COMFIRMAR</string>
+    <string name="valor_investido_em_r">VALOR INVESTIDO EM R$ </string>
+
+    <string name="quantidade_da_moeda"> QUANTIDADE DA MOEDA </string>
+    <string name="data">DATA </string>
+    <string name="ativos">ATIVO </string>
+    <string name="valorizacao">Valorização </string>
+    <string name="excluir">EXCLUIR</string>
+    <string name="com.ap8.criptomoedas.ui.bcash.BcashFragment" />
+    <string name="total_investido"> Total Investido </string >
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_BTC">Bitcoin</string>
+    <string name="menu_ETH" > Ethereum</string>
+    <string name="menu_LTC">Litecoin</string>
+    <string name="menu_BHC">Bitocoin CASH</string>
+    <string name="action_settings">Configurações</string>
+
+
+    <string name="litecoin">LITECOIN</string>
+    <string name="ethereum">ETHEREUM</string>
+    <string name="bcash">BCASH</string>
+    <string name="bitcoin">BITCOIN</string>
+
+
+
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title" translatable="false">AS Cripto</string>
+    <string name="nav_header_subtitle" />
+    <string name="adapter_ativos" />
+
+
+</resources>

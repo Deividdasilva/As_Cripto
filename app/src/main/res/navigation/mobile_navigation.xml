@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ap8.appcriptomoedas.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+<!--        <action-->
+<!--            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"-->
+<!--            app:destination="@id/nav_home_second" />-->
+    </fragment>
+<!--    <fragment-->
+<!--        android:id="@+id/nav_home_second"-->
+<!--        android:name="com.ap8.appcriptomoedas.ui.home.HomeSecondFragment"-->
+<!--        android:label="@string/home_second"-->
+<!--        tools:layout="@layout/fragment_home_second">-->
+<!--        <action-->
+<!--            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"-->
+<!--            app:destination="@id/nav_home" />-->
+
+<!--        <argument-->
+<!--            android:name="myArg"-->
+<!--            app:argType="string" />-->
+<!--    </fragment>-->
+
+    <fragment
+        android:id="@+id/nav_btc"
+        android:name="com.ap8.appcriptomoedas.ui.bitcoin.BitcoinFragment"
+        android:label="@string/menu_BTC"
+        tools:layout="@layout/fragment_bitcoin" />
+
+    <fragment
+        android:id="@+id/nav_eth"
+        android:name="com.ap8.appcriptomoedas.ui.etherium.EtheriumFragment"
+        android:label="@string/menu_ETH"
+        tools:layout="@layout/fragment_ethereum" />
+
+    <fragment
+        android:id="@+id/nav_ltc"
+        android:name="com.ap8.appcriptomoedas.ui.litecoin.LitecoinFragment"
+        android:label="@string/menu_LTC"
+        tools:layout="@layout/fragment_litecoin" />
+
+    <fragment
+        android:id="@+id/nav_bhc"
+        android:name="com.ap8.appcriptomoedas.ui.bcash.BcashFragment"
+        android:label="@string/menu_BHC"
+        tools:layout="@layout/fragment_bcash" />
+</navigation>

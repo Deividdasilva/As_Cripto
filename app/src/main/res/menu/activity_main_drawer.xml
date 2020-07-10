@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_btc"
+            android:icon="@drawable/ic_icon_bitcoin"
+            android:title="@string/menu_BTC" />
+        <item
+            android:id="@+id/nav_eth"
+            android:icon="@drawable/ic_icon_ethereum"
+            android:title="@string/menu_ETH" />
+
+        <item
+            android:id="@+id/nav_ltc"
+            android:icon="@drawable/ic_icon_litecoin"
+            android:title="@string/menu_LTC" />
+
+        <item
+            android:id="@+id/nav_bhc"
+            android:icon="@drawable/ic_icon_bcash"
+            android:title="@string/menu_BHC" />
+    </group>
+</menu>
